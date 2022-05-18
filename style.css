@@ -5,6 +5,7 @@
 
 :root {
   font-family: "Khula", sans-serif;
+  font-size: 1.5rem; /* may update this */
 }
 
 .container {
@@ -24,7 +25,35 @@
 
     flex-direction: column;
   }
-  
+
+  .first-name-first-letter {
+    font-size: 4rem;
+  }
+
+  .first-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .title-first-letter {
+    font-size: 3rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .contact-info-section div:nth-child(1) {
+    font-weight: 600;
+  }
+
+
+
+
+
   .right-side-site-copy {
     outline: solid black;
 
