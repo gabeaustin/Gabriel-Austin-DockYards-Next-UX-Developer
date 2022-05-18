@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Khula", sans-serif;
+}
+
+/*** Media Queries ***/
+/* tablet */
+@media only screen and (min-width: 601px) and (max-width: 768px) {}
+
+/* mobile */
+@media only screen and (max-width: 600px) {}
