@@ -5,11 +5,20 @@
 
 :root {
   font-family: "Khula", sans-serif;
-  font-size: 1.5rem; /* may update this */
+  font-size: 1.5em;
+  /* may update this */
 }
 
 .container {
   display: flex;
+}
+
+hr {
+  background-color: #000;
+  border: none;
+  color: #000;
+  height: 3px;
+  width: 15vw;
 }
 
 /*** Media Queries ***/
@@ -18,30 +27,36 @@
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-
-
-  .left-side-name-and-title {
-    outline: solid salmon;
-
+  .container {
+    row-gap: 60px;
     flex-direction: column;
   }
 
+  hr {
+    margin: 0px auto 45px auto;
+  }
+
+  .left-side-name-and-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .first-name-first-letter {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .first-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
   }
 
   .title-first-letter {
-    font-size: 3rem;
+    font-size: 1.3rem;
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -55,9 +70,6 @@
 
 
   .right-side-site-copy {
-    outline: solid black;
-
-
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
