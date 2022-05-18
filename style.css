@@ -7,9 +7,28 @@
   font-family: "Khula", sans-serif;
 }
 
+.container {
+  display: flex;
+}
+
 /*** Media Queries ***/
 /* tablet */
 @media only screen and (min-width: 601px) and (max-width: 768px) {}
 
 /* mobile */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+
+  .left-side-name-and-title {
+    outline: solid salmon;
+
+    flex-direction: column;
+  }
+  
+  .right-side-site-copy {
+    outline: solid black;
+
+
+    flex-direction: column;
+  }
+}
